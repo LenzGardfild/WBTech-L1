@@ -27,7 +27,7 @@ type Action struct {
 func main() {
     // Создаём Action с вложенным Human
     a := Action{
-        Human: Human{Name: "Атлухан", Age: 19},
+        Human: Human{Name: "Атлухан", Age: 20},
         Role:  "Программист",
     }
 
